@@ -3,6 +3,11 @@
 @import 'styles/normalize.css';
 
 
-h1, h2, h3, h4, span, a, b, i {
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
   font-family: Roboto;
 }
