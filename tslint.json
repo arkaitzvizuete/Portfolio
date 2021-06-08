@@ -24,7 +24,8 @@
     "import-spacing": true,
     "indent": {
       "options": [
-        "spaces"
+        "spaces",
+        4
       ]
     },
     "max-classes-per-file": false,
@@ -136,6 +137,7 @@
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true,
+    "tslint.autoFixOnSave": true,
     "directive-selector": [
       true,
       "attribute",
