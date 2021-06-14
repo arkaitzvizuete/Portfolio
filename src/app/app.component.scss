@@ -1,7 +1,7 @@
 .container {
   display: grid;
 
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 45% 55%;
   grid-template-rows: min-content auto min-content;
   grid-template-areas:
     "header nav"
@@ -26,13 +26,18 @@ app-navbar {
 .content {
   grid-area: content;
 
-  background-color: aquamarine;
+  align-self: center;
+
+  padding: 1.5rem;
+}
+
+.contentContainer {
+  min-height: 30rem;
+  border: 1px solid #000000;
+  border-radius: 1rem;
 }
 
 
 app-footer {
   grid-area: footer;
 }
-
-
-
