@@ -1,0 +1,34 @@
+
+ul {
+  margin: 0;
+  padding: 2rem;
+
+
+  list-style: none;
+}
+
+li {
+  padding: 0.5rem 0 0.5rem 0;
+
+  cursor: pointer;
+}
+
+fa-icon {
+  font-size: 3rem;
+}
+
+.github:hover {
+  color: #783ce1;
+}
+
+.linkedin:hover {
+  color: #0a66c2;
+}
+
+a {
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #000000;
+
+  text-decoration: none;
+}
